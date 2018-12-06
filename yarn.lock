@@ -4072,6 +4072,10 @@ neo-async@^2.5.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.0.tgz#b9d15e4d71c6762908654b5183ed38b753340835"
 
+ng-drag-drop@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/ng-drag-drop/-/ng-drag-drop-5.0.0.tgz#aec44831143a095102dc24505f712ac889c3b98c"
+
 nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
