@@ -5,11 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { NgDragDropModule } from 'ng-drag-drop';
+import { ToolbarItemComponent } from './toolbar-item/toolbar-item.component';
+import { ToolboxComponent } from './toolbox/toolbox.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    ToolbarItemComponent,
+    ToolboxComponent
   ],
   imports: [
     BrowserModule,
