@@ -1,6 +1,6 @@
 <div class="toolbar-container">
   <h2>Toolbar</h2>
-  <div class="toolbar" droppable (onDrop)="onItemDrop($event)">
+  <div class="toolbar" droppable (onDrop)="onItemDrop($event)" [dragOverClass]="'drag-target-border'">
     <div *ngIf="isEmpty()" class="toolbar-text">Drop your tools into this toolbar.</div>
     <app-toolbar-item *ngFor="let item of items" [item]="item"></app-toolbar-item>
   </div>

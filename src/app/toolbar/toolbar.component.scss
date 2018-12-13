@@ -11,3 +11,8 @@
         margin: 10px 0;
     }
 }
+
+.drag-target-border {
+    border: 2px solid blue;
+    background: linear-gradient(to bottom, rgb(185, 247, 255) 0%,rgba(125,185,232,0) 100%);
+}
