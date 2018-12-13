@@ -1,3 +1,7 @@
-<div class="toolbox">
-  <app-toolbar-item draggable *ngFor="let item of items" [dragData]="item" [item]="item"></app-toolbar-item>
+<div class="toolbox-container">
+  <h2>Toolbox</h2>
+  <p>Drag the tools from the toolbox below to the toolbar above.</p>
+  <div class="toolbox">
+    <app-toolbar-item draggable *ngFor="let item of items" [dragData]="item" [item]="item"></app-toolbar-item>
+  </div>
 </div>

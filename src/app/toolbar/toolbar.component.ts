@@ -18,10 +18,15 @@ export class ToolbarComponent implements OnInit {
   ngOnInit() {
   }
 
+  public isEmpty = () => {
+    return this.items.length === 0;
+  }
+
   onItemDrop(e: DropEvent) {
     const { clientX } = e.nativeEvent;
     const insertIndex = Math.floor(clientX / ITEM_WIDTH);
     this.items.splice(insertIndex, 0, e.dragData);
+    console.log('items', this.items);
   }
 
 }

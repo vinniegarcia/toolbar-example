@@ -9,9 +9,10 @@ import { IToolbarItem } from '../toolbar-item/toolbar-item.component';
 export class ToolboxComponent implements OnInit {
 
   items: Array<IToolbarItem> = [
-    { name: 'About', onClick: (e) => console.log(e) },
-    { name: 'Home', onClick: (e) => console.log(e) },
-    { name: 'Contact', onClick: (e) => console.log(e) }
+    { name: 'About', onClick: (e) => console.log(e), icon: 'cog' },
+    { name: 'Home', onClick: (e) => console.log(e), icon: 'home' },
+    { name: 'Contact', onClick: (e) => console.log(e), icon: 'phone' },
+    { name: 'App1', onClick: (e) => console.log(e), icon: 'save' }
   ];
 
   constructor() { }

@@ -3,6 +3,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export interface IToolbarItem {
   name: string;
   onClick: (e: Event) => void;
+  icon?: string;
 }
 
 @Component({
@@ -22,7 +23,6 @@ export class ToolbarItemComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log('item', this.item);
   }
 
 }

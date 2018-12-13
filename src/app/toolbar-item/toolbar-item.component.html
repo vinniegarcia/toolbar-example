@@ -1,3 +1,4 @@
 <div class="toolbar-item">
+  <fa *ngIf="item.icon" name={{item.icon}} size="5x"></fa>
   <a (click)="onClick($event)">{{item.name}}</a>
 </div>
