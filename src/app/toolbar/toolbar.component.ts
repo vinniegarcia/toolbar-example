@@ -22,7 +22,7 @@ export class ToolbarComponent implements OnInit {
     return this.items.length === 0;
   }
 
-  onItemDrop(e: DropEvent) {
+  onItemDrop(e: any) {
     const { clientX } = e.nativeEvent;
     const insertIndex = Math.floor(clientX / ITEM_WIDTH);
     this.items.splice(insertIndex, 0, e.dragData);
